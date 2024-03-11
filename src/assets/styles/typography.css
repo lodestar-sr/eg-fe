@@ -1,0 +1,24 @@
+@layer base {
+  h1, .typo-h1 {
+    @apply font-bold text-4xl;
+  }
+  h2, .typo-h2 {
+    @apply font-bold text-3xl;
+  }
+  h3, .typo-h3 {
+    @apply font-bold text-2xl;
+  }
+  h4, .typo-h4 {
+    @apply font-bold text-xl;
+  }
+  h5, .typo-h5 {
+    @apply font-bold text-lg;
+  }
+  h6, .typo-h6 {
+    @apply font-bold text-base;
+  }
+
+  .typo-link {
+    @apply text-sm font-medium hover:underline;
+  }
+}
